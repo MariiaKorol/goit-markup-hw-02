@@ -1,0 +1,80 @@
+:root {
+    /* основний колір тексту */
+    --primary-text-color: rgba(117, 117, 117, 1);
+  
+    /* колір заголовків */
+    --title-text-color: #212121;
+  
+    /* колір тексту адреси в футері */
+    --adress-footer-color: rgba(255, 255, 255, 0.6);
+  
+    /* основний фон сторінки */
+    --primary-background-color:#F5F5F5;
+  
+    /* фон хедера */
+    --header-color: #FFFFFF;
+  
+    /* фон секції наша команда */
+    --section-compani-color: #F5F4FA;
+  
+    /* колір секції футер */
+    --footer-color: #2F303A;
+  
+    /* акцент, підсвітка */
+    --accent-color:#2196F3;
+  
+    /* лоотип */
+    --title-web-color:#2196F3;
+    --title-studio-color:#000000;
+  
+    /* герой */
+    --title-hero-text: #FFFFFF;
+  
+    /* кнопка */
+    --title-button-color: #FFFFFF;
+    --accen-button-color:#2196F3;
+  }
+  
+  
+  body {
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
+    
+  }
+  /* Logo */
+
+.logo-link {
+    color: var(--title-web-color);
+    }
+    
+    .logo {
+    color: var(--title-studio-color);
+    }
+    
+    /* navigation */
+    
+    .site-nav .link {
+      color: var(--title-text-color);
+    }
+    .site-nav .link:hover,
+    .site-nav .link:focus {
+    color: var(--accent-color);
+    }
+    
+    .site-nav .link.current {
+      color: var(--accent-color);
+    }
+    
+    /* Adress */
+    .adress-nav .link {
+      color: var(--primary-text-color);
+    }
+    
+    .adress-nav .link:hover,
+    .adress-nav .link:focus {
+    color: var(--accent-color);
+    }
+    .adress-nav .link.current {
+      color: var(--accent-color);
+    }
+    
