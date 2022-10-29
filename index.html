@@ -5,61 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <!--шапка сторінки-->
-    <header>
+    <header class="page-header">
         <nav>
-            <!--логотип-->
-            <a href="/index.html">
-            WebStudio
-        </a>
-        <!--навігація на інші сторінки-->
-        <ul>
-            <li><a href="">Студія</a></li>
-            <li><a href="">Портфоліо</a></li>
-            <li><a href="">Контакти</a></li>
+            <!--logo--> 
+            <a href="./index.html" class="logo-link">Web</a>
+            <a href="./index.html" class="logo">Studio</a>
+        <!--navigation-->
+        <ul class="site-nav list">
+            <li><a href="" class="link">Студія</a></li>
+            <li><a href="" class="link">Портфоліо</a></li>
+            <li><a href="" class="link">Контакти</a></li>
         </ul>
-        <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+380961111111</a></li>
+        <ul class="adress-nav list">
+            <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+            <li><a href="tel:+380961111111" class="link">+380961111111</a></li>
         </ul>
         </nav>
     </header>
     
    <main>
     <!--heroes-->
-    <section>
+    <section class="hero">
         <h1>Ефективні рішення для вашого бізнесу</h1>
         <a href="">Замовити послугу</a>
     </section>
     
-    <!--скіли компанії-->
-    <section>
-        <h2>Навики компанії</h2>
-        <ul>
+    <!--skills-->
+    <section class="section">
+        <h2 class="section-title">Навики компанії</h2>
+        <ul class="feature-list">
             <li>
-                <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
+                <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
                 <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
             </li>
             <li>
-                <h3>ПУНКТУАЛЬНІСТЬ</h3>
+                <h3 class="title">ПУНКТУАЛЬНІСТЬ</h3>
                 <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
             </li>
             <li>
-                <h3>ПЛАНУВАННЯ</h3>
+                <h3 class="title">ПЛАНУВАННЯ</h3>
                 <p>Так само консультація з широким активом значною мірою зумовлює.</p>
             </li>
             <li>
-                <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                <h3 class="title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
                 <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
             </li>
         </ul>
     </section>
-    <!--послуги-->
-    <section>
-        <h2>Чим ми займаємося</h2>
-        <ul>
+    <!--work-->
+    <section class="section">
+        <h2 class="section-title">Чим ми займаємося</h2>
+        <ul class="work-list">
             <li><img src="./images/pk.png" alt="компютер" 
                 width="370"
                 height="294">
@@ -76,14 +76,14 @@
     </section>
     
     <!--команда розробників-->
-    <section>
-        <h2>Наша команда</h2>
-        <ul>
+    <section class="section">
+        <h2 class="section-title">Наша команда</h2>
+        <ul class="comand-list">
             <li>
                 <img src="./images/igordemjanenko.jpg" alt="Ігор Демяненко"
                 width="270"
                 height="368">
-                <h3>Ігор Дем'яненко</h3>
+                <h3 class="link">Ігор Дем'яненко</h3>
                 <p>Product Designer</p>
                 
             </li>
@@ -92,7 +92,7 @@
                 <img src="./images/olharepina.jpg" alt="Ольга Рєпіна"
                 width="270"
                 height="368">
-                <h3>Ольга Рєпіна</h3>
+                <h3 class="link">Ольга Рєпіна</h3>
                 <p>Frontend Developer</p>
             </li>
     
@@ -100,7 +100,7 @@
                 <img src="./images/mykolatarasow.jpg" alt="Микола Тарасов"
                 width="270"
                 height="368">
-                <h3>Микола Тарасов</h3>
+                <h3 class="link">Микола Тарасов</h3>
                 <p>Marketing</p>
             </li>
     
@@ -108,7 +108,7 @@
                 <img src="./images/mychajlojermakov.jpg" alt="Михайло Єрмаков"
                 width="270"
                 height="368">
-                <h3>Михайло Єрмаков</h3>
+                <h3 class="link">Михайло Єрмаков</h3>
                 <p>UI Designer</p>
             </li>
         </ul>
