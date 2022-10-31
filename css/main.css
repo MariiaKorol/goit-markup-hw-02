@@ -29,10 +29,14 @@
   /* колір секції футер */
   --footer-color: #2F303A;
 
+  /* адреса футер */
+  --contact-footer-color: rgba(255, 255, 255, 0.6);
+ --footer-adress-color:#FFFFFF;
+
   /* акцент, підсвітка */
   --accent-color:#2196F3;
 
-  /* лоотип */
+  /* логотип */
   --title-web-color:#2196F3;
   --title-studio-color:#000000;
 
@@ -66,6 +70,9 @@ color: var(--title-web-color);
 color: var(--title-studio-color);
 }
 
+.logo-black {
+  color: #FFFFFF;
+}
 /* navigation */
 
 .site-nav .link {
@@ -131,4 +138,16 @@ color: var(--title-text-color);
 
   .comand-list .link {
     color: var(--title-text-color);
+  }
+
+  /* Footer */
+
+  .footer {
+background-color: var(--footer-color);
+  }
+  .adress-footer {
+ color: var(--footer-adress-color);
+  }
+  .contact-list .link {
+ color: var(--contact-footer-color);
   }
