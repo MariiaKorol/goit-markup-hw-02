@@ -40,68 +40,107 @@
 }
 
 
-  body {
-    background-color: var(--primary-background-color);
-    color: var(--primary-text-color);
-    
-  }
-  /* Logo */
+body {
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
+  
+}
+
+ul {
+    list-style: none;
+}
+
+.page-header {
+  background-color: var(--header-color);
+}
+/* Logo */
 
 .logo-link {
-    color: var(--title-web-color);
-    }
-    
-    .logo {
-    color: var(--title-studio-color);
-    }
-    
-    /* navigation */
-    
-    .site-nav .link {
-      color: var(--title-text-color);
-    }
-    .site-nav .link:hover,
-    .site-nav .link:focus {
-    color: var(--accent-color);
-    }
-    
-    .site-nav .link.current {
-      color: var(--accent-color);
-    }
-    
-    /* Adress */
-    .adress-nav .link {
-      color: var(--primary-text-color);
-    }
-    
-    .adress-nav .link:hover,
-    .adress-nav .link:focus {
-    color: var(--accent-color);
-    }
-    .adress-nav .link.current {
-      color: var(--accent-color);
-    }
+color: var(--title-web-color);
+}
 
-    /* Section */
+.logo {
+color: var(--title-studio-color);
+}
+
+.logo-black {
+  color: #FFFFFF;
+}
+/* navigation */
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* Adress */
+.adress-nav .link {
+  color: var(--primary-text-color);
+}
+
+.adress-nav .link:hover,
+.adress-nav .link:focus {
+color: var(--accent-color);
+}
+.adress-nav .link.current {
+  color: var(--accent-color);
+}
+
+
+/* Hero */
+
+.hero {
+  color:var(--title-hero-text);
+  }
+  
+
+/* Section */
 
 .section-title {
-  color: var(--title-text-color);  
-  }
+color: var(--title-text-color);  
+}
 
-   /* Button */
-   .button {
+/* Features */
+.feature-list .title {
+  color: var(--title-text-color);
+}
+
+  /* Button */
+  .button {
     color: var(--title-button-color);
   }
 
-   /* Footer */
+  .button.primary {
+  color: var(--title-button-color);
+  background-color: var(--accen-button-color);
+  }
 
-   .footer {
-    background-color: var(--footer-color);
-      }
-      .adress-footer {
-     color: var(--footer-adress-color);
-      }
-      .contact-list .link {
-     color: var(--contact-footer-color);
-      }
-    
+  .button.secondary {}
+
+  /* Work */
+
+
+  /* Comand */
+
+  .comand-list .link {
+    color: var(--title-text-color);
+  }
+
+  /* Footer */
+
+  .footer {
+background-color: var(--footer-color);
+  }
+  .adress-footer {
+ color: var(--footer-adress-color);
+  }
+  .contact-list .link {
+ color: var(--contact-footer-color);
+  }
