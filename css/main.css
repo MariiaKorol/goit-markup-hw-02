@@ -21,31 +21,31 @@
   --primary-background-color:#F5F5F5;
 
   /* фон хедера */
-  --header-color: #FFFFFF;
+  --header-color: rgba(255, 255, 255, 1);
 
   /* фон секції наша команда */
-  --section-compani-color: #F5F4FA;
+  --section-compani-color: rgba(245, 244, 250, 1)
 
   /* колір секції футер */
-  --footer-color: #2F303A;
+  --footer-color: rgba(47, 48, 58, 1)
 
   /* адреса футер */
   --contact-footer-color: rgba(255, 255, 255, 0.6);
  --footer-adress-color:#FFFFFF;
 
   /* акцент, підсвітка */
-  --accent-color:#2196F3;
+  --accent-color:rgba(33, 150, 243, 1);
 
   /* логотип */
-  --title-web-color:#2196F3;
-  --title-studio-color:#000000;
+  --title-web-color:rgba(33, 150, 243, 1);
+  --title-studio-color:rgba(0, 0, 0, 1);
 
   /* герой */
-  --title-hero-text: #FFFFFF;
+  --title-hero-text: rgba(255, 255, 255, 1);
 
   /* кнопка */
   --title-button-color: #FFFFFF;
-  --accen-button-color:#2196F3;
+  --accen-button-color:rgba(33, 150, 243, 1);
 }
 
 
@@ -59,7 +59,9 @@ ul {
     list-style: none;
 }
 
-
+.page-header {
+  background-color: var(--header-color);
+}
 /* Logo */
 
 .logo-link {
