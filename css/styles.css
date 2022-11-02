@@ -9,13 +9,16 @@
 
 :root {
   /* основний колір тексту */
-  --primary-text-color: rgba(117, 117, 117, 1);
+  --primary-text-color: rgba(117, 117, 117, 1);;
 
   /* колір заголовків */
-  --title-text-color: #212121;
+  --title-text-color: rgba(33, 33, 33, 1);
 
-  /* колір тексту адреси в футері */
+  /* футер колір адреси */
   --adress-footer-color: rgba(255, 255, 255, 0.6);
+
+  /* футер колір контактів */
+  --contact-footer-color:#FFFFFF;
 
   /* основний фон сторінки */
   --primary-background-color:#F5F5F5;
@@ -23,15 +26,17 @@
   /* фон хедера */
   --header-color: rgba(255, 255, 255, 1);
 
-  /* фон секції наша команда */
-  --section-compani-color: rgba(245, 244, 250, 1)
+  /* фон наша команда */
+ --title-ourtame-color: #F5F4FA;
 
+  /* фон геой */
+--title-heroe-color:rgba(47, 48, 58, 1);
+
+  /* колір заголовку герой */
+--text-heroe-color:rgba(255, 255, 255, 1);
   /* колір секції футер */
-  --footer-color: rgba(47, 48, 58, 1)
 
-  /* адреса футер */
-  --contact-footer-color: rgba(255, 255, 255, 0.6);
- --footer-adress-color:#FFFFFF;
+  --footer-color: rgba(47, 48, 58, 1);
 
   /* акцент, підсвітка */
   --accent-color:rgba(33, 150, 243, 1);
@@ -40,24 +45,25 @@
   --title-web-color:rgba(33, 150, 243, 1);
   --title-studio-color:rgba(0, 0, 0, 1);
 
-  /* герой */
-  --title-hero-text: rgba(255, 255, 255, 1);
-
   /* кнопка */
   --title-button-color: #FFFFFF;
   --accen-button-color:rgba(33, 150, 243, 1);
 }
 
 
+
 body {
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
-  
+
+  font-family: Roboto, sans-serif;
 }
 
 ul {
     list-style: none;
 }
+
+
 
 .page-header {
   background-color: var(--header-color);
@@ -106,7 +112,8 @@ color: var(--accent-color);
 /* Hero */
 
 .hero {
-  color:var(--title-hero-text);
+  background-color: var(--title-heroe-color);
+  color:var(--text-heroe-color);
   }
   
 
@@ -133,23 +140,40 @@ color: var(--title-text-color);
 
   .button.secondary {}
 
+  .button-nav .link {
+    color: var(--title-text-color)
+  }
+
+  .button-nav .link:hover {
+    color: var(--accent-color);
+  }
+  .button-nav .primary {
+    color: var(--title-button-color);
+    background-color: var(--accen-button-color);
+    }
+
+    
   /* Work */
 
 
   /* Comand */
 
   .comand-list .link {
+    background-color: var(--title-ourtame-color);
     color: var(--title-text-color);
   }
+
 
   /* Footer */
 
   .footer {
-background-color: var(--footer-color);
+    background-color: 
+    #2F303A;
   }
-  .adress-footer {
- color: var(--footer-adress-color);
+  .contact-footer {
+ color: var(--contact-footer-color)
   }
-  .contact-list .link {
- color: var(--contact-footer-color);
+
+  .adress-list .link {
+ color: var(--adress-footer-color);
   }
