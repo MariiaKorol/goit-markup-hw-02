@@ -68,24 +68,49 @@ ul {
 .page-header {
   background-color: var(--header-color);
 }
+
+
 /* Logo */
 
 .logo-link {
 color: var(--title-web-color);
+font-family: Raleway, sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+text-decoration: none;
 }
 
-.logo {
+.accent-link {
 color: var(--title-studio-color);
+font-family: Raleway, sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+text-decoration: none;
 }
 
-.logo-black {
+.accent-black {
   color: #FFFFFF;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
 }
+
+
 /* navigation */
 
 .site-nav .link {
   color: var(--title-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+text-decoration: none;
+
 }
+
 .site-nav .link:hover,
 .site-nav .link:focus {
 color: var(--accent-color);
@@ -98,12 +123,17 @@ color: var(--accent-color);
 /* Adress */
 .adress-nav .link {
   color: var(--primary-text-color);
+  font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+text-decoration: none;
 }
 
 .adress-nav .link:hover,
 .adress-nav .link:focus {
 color: var(--accent-color);
 }
+
 .adress-nav .link.current {
   color: var(--accent-color);
 }
@@ -111,37 +141,67 @@ color: var(--accent-color);
 
 /* Hero */
 
-.hero {
+ .hero {
   background-color: var(--title-heroe-color);
-  color:var(--text-heroe-color);
   }
+
+  .hero-title {
+    color:var(--text-heroe-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36; 
+    text-align: center; 
+  }
+
+  .hero-button {
+    color: var(--title-button-color);
+    background-color: var(--accen-button-color);
+    text-decoration: none;
+    }
   
 
 /* Section */
 
 .section-title {
-color: var(--title-text-color);  
+color: var(--title-text-color);
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+}
+
+/* portfolio list */
+.section-text {
+  color: var(--title-text-color);
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
 }
 
 /* Features */
+
 .feature-list .title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.feature-list .text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
 }
 
   /* Button */
   .button {
     color: var(--title-button-color);
   }
-
-  .button.primary {
-  color: var(--title-button-color);
-  background-color: var(--accen-button-color);
-  }
-
-  .button.secondary {}
-
-  .button-nav .link {
-    color: var(--title-text-color)
+  
+    .button-nav .link {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
   }
 
   .button-nav .link:hover {
@@ -161,6 +221,9 @@ color: var(--title-text-color);
   .comand-list .link {
     background-color: var(--title-ourtame-color);
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
   }
 
 
@@ -176,4 +239,5 @@ color: var(--title-text-color);
 
   .adress-list .link {
  color: var(--adress-footer-color);
+ text-decoration: none;
   }
